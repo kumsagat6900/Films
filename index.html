@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1>Интерстеллар</h1>
+        <p>Фильм, который изменил моё восприятие космоса 🚀</p>
+      </header>
+
+      <section class="poster section">
+        <img src="images/interstellar.jpg" alt="Постер фильма Интерстеллар" />
+      </section>
+
+      <section class="about section">
+        <h2>О фильме</h2>
+        <p>
+          «Интерстеллар» — научно-фантастический фильм Кристофера Нолана.
+          История о том, как группа исследователей отправляется в космос в
+          поисках нового дома для человечества.
+        </p>
+      </section>
+
+      <section class="characters section">
+        <h2>Главные персонажи</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="images/kuper.jpg" alt="Купер" class="card-img" />
+            <h3>Купер</h3>
+            <p class="card-desc">Главный герой, бывший пилот НАСА.</p>
+            <a class="btn" href="#">Подробнее</a>
+          </article>
+
+          <article class="card">
+            <img src="images/merf.webp" alt="Мёрф" class="card-img" />
+            <h3>Мёрф</h3>
+            <p class="card-desc">Дочь Купера, которая стала учёной.</p>
+            <a class="btn" href="#">Подробнее</a>
+          </article>
+
+          <article class="card">
+            <img src="images/ame.jpg" alt="Амелия" class="card-img" />
+            <h3>Амелия</h3>
+            <p class="card-desc">Учёная и астронавт, напарница Купера.</p>
+            <a class="btn" href="#">Подробнее</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/B.jpg"
+              alt="Профессор Бранд"
+              class="card-img"
+            />
+            <h3>Профессор Бранд</h3>
+            <p class="card-desc">
+              Учёный, разработавший план спасения человечества.
+            </p>
+            <a class="btn" href="#">Подробнее</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="facts section">
+        <h2>Интересные факты</h2>
+        <table>
+          <tr>
+            <th>Факт</th>
+            <th>Описание</th>
+          </tr>
+          <tr>
+            <td>Научная точность</td>
+            <td>В фильме консультировал физик-теоретик Кип Торн.</td>
+          </tr>
+          <tr>
+            <td>Оскар</td>
+            <td>Получил премию за лучшие визуальные эффекты.</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="contact section">
+        <h2>Ваш любимый фильм?</h2>
+        <form>
+          <input type="text" placeholder="Имя" required />
+          <input type="text" placeholder="Любимый фильм" required />
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+
+      <footer class="site-footer">
+        <p>© 2025 Талгат | Сайт о кино</p>
+      </footer>
+    </div>
+  </body>
+</html>
