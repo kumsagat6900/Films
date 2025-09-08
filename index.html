@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Интерстеллар</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
       rel="stylesheet"
@@ -15,13 +16,19 @@
       <header class="site-header">
         <h1>Интерстеллар</h1>
         <p>Фильм, который изменил моё восприятие космоса 🚀</p>
+        <nav class="nav_bar">
+          <a href="#poster">Главная</a>
+          <a href="#characters">Персонажи</a>
+          <a href="#facts">Факты</a>
+          <a href="#contact">Контакты</a>
+        </nav>
       </header>
 
-      <section class="poster section">
+      <section id="poster" class="poster section">
         <img src="images/interstellar.jpg" alt="Постер фильма Интерстеллар" />
       </section>
 
-      <section class="about section">
+      <section id="about" class="about section">
         <h2>О фильме</h2>
         <p>
           «Интерстеллар» — научно-фантастический фильм Кристофера Нолана.
@@ -30,7 +37,7 @@
         </p>
       </section>
 
-      <section class="characters section">
+      <section id="characters" class="characters section">
         <h2>Главные персонажи</h2>
         <div class="cards">
           <article class="card">
@@ -55,11 +62,7 @@
           </article>
 
           <article class="card">
-            <img
-              src="images/B.jpg"
-              alt="Профессор Бранд"
-              class="card-img"
-            />
+            <img src="images/B.jpg" alt="Профессор Бранд" class="card-img" />
             <h3>Профессор Бранд</h3>
             <p class="card-desc">
               Учёный, разработавший план спасения человечества.
@@ -69,7 +72,7 @@
         </div>
       </section>
 
-      <section class="facts section">
+      <section id="facts" class="facts section">
         <h2>Интересные факты</h2>
         <table>
           <tr>
@@ -87,7 +90,7 @@
         </table>
       </section>
 
-      <section class="contact section">
+      <section id="contact" class="contact section">
         <h2>Ваш любимый фильм?</h2>
         <form>
           <input type="text" placeholder="Имя" required />
